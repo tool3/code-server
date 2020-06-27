@@ -9,11 +9,11 @@
   },
   "repository": "https://github.com/cdr/code-server",
   "scripts": {
-    "clean": "./install.sh",
+    "clean": "./ci/build/clean.sh",
     "vscode": "./ci/dev/vscode.sh",
     "vscode:patch": "./ci/dev/patch-vscode.sh",
     "vscode:diff": "./ci/dev/diff-vscode.sh",
-    "build": "./ci/build/build-code-server.sh",
+    "build": "./install.sh",
     "build:vscode": "./ci/build/build-vscode.sh",
     "release": "./ci/build/build-release.sh",
     "release:standalone": "./ci/build/build-standalone-release.sh",
