@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/cdr/code-server",
   "scripts": {
-    "clean": "./ci/build/clean.sh",
+    "clean": "./install.sh",
     "vscode": "./ci/dev/vscode.sh",
     "vscode:patch": "./ci/dev/patch-vscode.sh",
     "vscode:diff": "./ci/dev/diff-vscode.sh",

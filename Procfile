@@ -1,2 +1,2 @@
 
-web: ./install.sh && code-server 
+web: code-server 
