@@ -2,7 +2,6 @@
 .cache
 dist*
 out*
-release/
 release-npm-package/
 release-standalone/
 release-packages/
