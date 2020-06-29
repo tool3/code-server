@@ -16,6 +16,6 @@ main() {
     assets[$i]="--attach=${assets[$i]}"
   done
   EDITOR=true hub release edit --draft "${assets[@]}" "v$VERSION"
-}
+}cd
 
 main "$@"

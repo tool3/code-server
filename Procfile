@@ -1,2 +1,2 @@
 
-web: npm run vscode && export $PATH="~/.local/bin:$PATH"  && code-server 
+web: ./release/bin/code-server -p 8080
