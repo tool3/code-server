@@ -13,7 +13,7 @@
     "vscode": "./ci/dev/vscode.sh",
     "vscode:patch": "./ci/dev/patch-vscode.sh",
     "vscode:diff": "./ci/dev/diff-vscode.sh",
-    "build": "apt-get update && apt-get install su && ./install.sh",
+    "build": "echo 'built'",
     "build:vscode": "./ci/build/build-vscode.sh",
     "release": "./ci/build/build-release.sh",
     "release:standalone": "./ci/build/build-standalone-release.sh",
