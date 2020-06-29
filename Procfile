@@ -1,2 +1,2 @@
 
-web: ./release/bin/code-server -p 8080
+web: release/bin/code-server -p 8080
